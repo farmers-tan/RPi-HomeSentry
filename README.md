@@ -10,12 +10,12 @@ See http://www.jasonacox.com/wordpress/archives/355
 ## Usage
 
 * Attach microswitch to the Raspberry Pi GPIO pin 23 and GND, and the LED to GPIO pin 17 and GND (w/resistor)
-* Use `sudo rpi-sentry.py` to run the sentry
+* Use `sudo ./rpi-sentry.py` to run the sentry
 * Stop the sentry using ^C
 
 ## Example Output
 
-'''
+```
 pi@raspberry:~ $ sudo ./rpi-sentry.py
 RPi Home Sentry
 
@@ -29,4 +29,4 @@ Count: 3s
 Count: 4s
 Count: 5s
 Door closed after 5 seconds
-'''
+```
